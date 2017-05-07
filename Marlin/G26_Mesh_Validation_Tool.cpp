@@ -91,13 +91,8 @@
    *   Q #  Multiplier  Retraction Multiplier.  Normally not needed.  Retraction defaults to 1.0mm and
    *                    un-retraction is at 1.2mm   These numbers will be scaled by the specified amount
    *
-   *   M #  Random      Randomize the order that the circles are drawn on the bed.  The search for the closest
-   *                    undrawn cicle is still done.  But the distance to the location for each circle has a
-   *                    random number of the size specified added to it.  Specifying R50 will give an interesting
-   *                    deviation from the normal behaviour on a 10 x 10 Mesh.
-
-   *   N #  Nozzle      Used to control the size of nozzle diameter.  If not specified, a .4mm nozzle is assumed.
-   *                    'n' can be used instead if your host program does not appreciate you using 'N'.
+   *   N #  Nozzle    Used to control the size of nozzle diameter.  If not specified, a .4mm nozzle is assumed.
+   *        'n' can be used instead if your host program does not appreciate you using 'N'.
    *
    *   O #  Ooooze      How much your nozzle will Ooooze filament while getting in position to print.  This
    *                    is over kill, but using this parameter will let you get the very first 'cicle' perfect
